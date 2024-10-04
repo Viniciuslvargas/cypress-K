@@ -1,6 +1,6 @@
 describe('Formulário de Cadastro', () => {
     beforeEach(() => {
-        cy.visit('http://127.0.0.1:5500'); // Altere para o endereço da sua aplicação
+        cy.visit('http://127.0.0.1:5500'); 
     });
 
     it('Verifica campos obrigatórios vazios', () => {

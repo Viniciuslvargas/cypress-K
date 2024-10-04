@@ -97,7 +97,7 @@
 
     <script>
         document.getElementById('cadastroForm').addEventListener('submit', function (event) {
-            event.preventDefault(); // Impede o envio do formulário
+            event.preventDefault(); 
 
             const nome = document.getElementById('nome').value;
             const email = document.getElementById('email').value;
@@ -117,11 +117,11 @@
                 return;
             }
 
-            // Cadastro bem-sucedido
+          
             mensagem.textContent = 'Cadastro realizado com sucesso!';
             mensagem.style.color = 'green';
 
-            // Limpa os campos do formulário
+           
             document.getElementById('cadastroForm').reset();
         });
     </script>
